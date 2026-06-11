@@ -1,16 +1,45 @@
 body{
-background-color: black;
-color: darkmagenta;
+    background-color: black;
+    color: white;
 }
 
 li{
-font-size: 18px;
-color: cornflowerblue;
+    font-size: 18px;
+    color: red;
 }
-/*
- 
-2° li como azul claro
-3° li como amarelo
+
+#html{
+    color: rgb(255, 128, 0);
 }
 
 #css{
+    color: rgb(103, 171, 255);
+}
+
+#js{
+    color: yellow;
+}
+
+button{
+    background-color: pink;
+    padding: 10px 20px; /* ESPAÇO INTERNO */
+    margin: 10px; /* ESPAÇO EXTERNO */
+    border-radius: 10px; /* BORDA */
+    max-width: 100px;
+}
+
+span{
+    font-size: 20px;
+    color: rgb(119, 0, 255);
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+#acessivel
+display: fixed
+left.20px
+botton: 20px
+}
