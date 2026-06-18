@@ -19,8 +19,10 @@ function aumentarFonte(){
 }
 
 // BOTÃO DO CONTRASTE
-const contraste = document.getElementById("contraste") 
-    contraste.addEventListener("click", alternarContraste){
+const contraste = document.getElementById("contraste")
+contraste.addEventListener("click", mudarcontraste)
+
 // FUNÇÃO DO CONTRASTE
-    document.body.classList.toggle("alto-contraste");
+function mudarcontraste(){
+document.body.style.color = "yellow"
 }
